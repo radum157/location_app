@@ -8,7 +8,7 @@ import 'package:flutter_app/services/authentication.dart';
 import 'package:flutter_app/services/location.dart';
 import 'package:provider/provider.dart';
 
-void main() async {
+Future<void> main() async {
   // Initialize the app with Firebase and Flutter
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
