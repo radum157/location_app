@@ -32,15 +32,14 @@ class WelcomePage extends StatelessWidget {
                   width: size.width * 0.5,
                 ),
               ),
-              SizedBox(
-                height: 10.0,
-              ),
+              SizedBox(height: 10.0),
               Center(
                 child: Image(
                   image: AssetImage('assets/msg.png'),
                   width: size.width * 0.5,
                 ),
               ),
+              SizedBox(height: 20.0),
               Center(
                 child: TextButton(
                   child: Text(
