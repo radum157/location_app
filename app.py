@@ -1,9 +1,6 @@
 import firebase_admin
 from firebase_admin import credentials, storage, firestore
 
-import flask
-from flask import Flask, jsonify
-
 import time
 import datetime
 import os
