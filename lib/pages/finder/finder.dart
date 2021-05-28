@@ -157,7 +157,7 @@ class _FinderState extends State<Finder> {
                       'I want to find this person',
                     ),
                     style: ElevatedButton.styleFrom(primary: Colors.green),
-                    onPressed: () async {
+                    onPressed: () {
                       _handleRequest(context, 'lost_posts');
                     },
                   ),
